@@ -348,6 +348,11 @@ public class SlidingUpPanelLayout extends ViewGroup {
             mAnchorPoint = anchorPoint;
     }
 
+    public void setIsSlidingUp(final boolean isSlidingUp)
+    {
+        this.mIsSlidingUp = isSlidingUp;
+    }
+
     /**
      * Set the shadow for the sliding panel
      *
