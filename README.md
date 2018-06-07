@@ -69,13 +69,13 @@ allprojects {
 
   buildscript {
     repositories {
-      mavenCentral()
+      jcenter()
     }
   }
 
   dependencies {
     repositories {
-      mavenCentral()
+      jcenter()
     }
   }
 }

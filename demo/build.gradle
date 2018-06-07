@@ -1,14 +1,14 @@
-apply plugin: 'android'
+apply plugin: 'com.android.application'
 
 buildscript {
   dependencies {
-    classpath 'com.android.tools.build:gradle:0.10.+'
+    classpath 'com.android.tools.build:gradle:3.2.1'
   }
 }
 
 android {
-    compileSdkVersion 19
-    buildToolsVersion "19.0.3"
+    compileSdkVersion 27
+    buildToolsVersion "27.0.3"
 
     defaultConfig {
         minSdkVersion 8
